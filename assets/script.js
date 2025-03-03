@@ -1,6 +1,7 @@
-let idade = 90
-
-
-console.log(100)
-console.log(90)
-console.log(idade)
+function avisar() {
+    alert('Opa, dispara o alerta!');
+}
+let botao = document.querySelector('button');
+botao.addEventListener('click', () =>{
+    alert('Opa, dispara o alerta!');
+});
